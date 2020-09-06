@@ -21,7 +21,7 @@ date = datetime.today()
 print('Welcome to Mr.Sakamoto Store Sep 4 10:29 {}'.format(date))
 print("What is your name?")
 name = input()
-print("Hi" + "" + name + "!!")
+print("Hi" + " " + name + "!!")
 
 # create a list of menu
 print("This is the menu")
@@ -34,16 +34,23 @@ print("4.{}  {}".format("GPU","8$"))
 
 print("=" * 20)
 
-options =int(input("Which option do you want to get.  "))
+print("Which option do you want to get.  ")
+options = int(input())
 
-if options == 1 :
-  print ("You chose RAM")
-if options == 2 :
-  print ("You chose CPU")
-if options == 3 :
-  print ("You chose Motherboard")
-if options == 4 :
-  print ("You chose GPU")
-else :
-  print ("Please chose a number from the list above")
+for i in range(3):
+  if options == 1 :
+    print ("You chose RAM")
+    break
+  if options == 2 :
+    print ("You chose CPU")
+    break
+  if options == 3 :
+    print ("You chose Motherboard")
+    break
+  if options == 4 :
+    print ("You chose GPU")
+    break
+  else :
+    print ("Please chose a number from the list above")
+    options =int(input("Which option do you want to get.  "))
 ```
