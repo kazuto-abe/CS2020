@@ -81,7 +81,7 @@ for email in range(10):
   print("{}.{}{}@uwcisak.jp". format(lastname, firstname, random.randint(0,10)))
 
 ```
-
+#### Dice simulation
 
 ```.py
 # Simulation for a fair dice
@@ -110,4 +110,47 @@ for trial in range(num_trial):
 for index, c in enumerate(counts):
   error = c - num_trial/6
   print("Number of {}s: {},expected {}, error {}".format(index+1, c, num_trial / 6,error))
+```
+#### Slices
+
+```.py
+a = str(input())
+print(a[2])   #print the third character of this string
+print(a[-2])  #print the second to last character of this string
+print(a[:5])  #print the first five characters of this string
+print(a[0:-2])#print all but the last two characters of this string
+print(a[::2]) #print all the characters of this string with even indices
+print(a[1::2])#print all the characters of this string with odd indices
+print(a[::-1])#print all the characters of the string in reverse order
+print(a[::-2])#print every second character of the string in reverse order, starting from the last one
+print(len(a)) #print the length of the given string
+```
+
+#### Count to N
+
+It says "This problem is available only for teachers who have a subscription and for their students." :((
+
+#### Series - 1 (using if statement)
+
+```.py
+a = int(input("Please input a number "))
+b = int(input("Please input a number, but it has to be equal or larger"))
+
+if a <= b:
+    for i in range (a, b + 1):
+        print(i)
+else:
+    print("Please keep following conditions above")
+
+```
+
+#### Task for HL
+
+Create a program that asks the user for 10 numbers and then shows those values ordered from smallest to largest.
+
+```.py
+num = (input("Please enter 10 numbers ex. 8  3  1  5  6  ... : \n "))
+
+sorted_num = sorted(num.split())
+print("This is the list of ordered numbers : \n {}" .format (sorted_num))
 ```
