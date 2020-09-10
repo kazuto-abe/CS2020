@@ -9,7 +9,7 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 ### Justisification of the solution
 ***Here we will write the design statement: what will do, how, by when***
 
-## Development
+## Criteria: C :Development
 
 First test of text based menu:
 
@@ -53,4 +53,61 @@ for i in range(3):
   else :
     print ("Please chose a number from the list above")
     options =int(input("Which option do you want to get.  "))
+```
+
+Warm up activity 
+
+``` py
+# This program calculates the sum of even number
+
+sum = 0
+for number in range(1000):
+  if number%2 ==0 :
+    sum += number
+
+print("THe addtion is {}".format(sum))
+
+# Write a program that ask for the first name and last Name
+# and create 10 email adresses in the UWCisak domein
+
+import random
+print("what is your last name")
+lastname = str(input())
+
+print("what is your  first name")
+firstname = str(input())
+
+for email in range(10):
+  print("{}.{}{}@uwcisak.jp". format(lastname, firstname, random.randint(0,10)))
+
+```
+
+
+```.py
+# Simulation for a fair dice
+#1 Generate a random number from 0 to 59
+#2 Check the number: if between[0 9] count as 0
+                    #if between [10 19] count as 1
+#3- Repeat process 1000 times and record the counts for each face
+import random
+counts = [0, 0, 0, 0, 0, 0]
+num_trial = 2000
+for trial in range(num_trial):
+  number = random.randint(0,60)
+  if number < 9:
+    counts[0] += 1
+  elif 9 < number < 20:
+    counts[1] += 1
+  elif 19 < number < 30:
+    counts[2] += 1
+  elif 29 < number < 40:
+    counts[3] += 1
+  elif 39 < number < 50:
+    counts[4] += 1
+  elif 49 < number < 60:
+    counts[5] += 1
+
+for index, c in enumerate(counts):
+  error = c - num_trial/6
+  print("Number of {}s: {},expected {}, error {}".format(index+1, c, num_trial / 6,error))
 ```
