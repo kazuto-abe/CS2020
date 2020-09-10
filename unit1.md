@@ -84,12 +84,8 @@ for email in range(10):
 #### Dice simulation
 
 ```.py
-# Simulation for a fair dice
-#1 Generate a random number from 0 to 59
-#2 Check the number: if between[0 9] count as 0
-                    #if between [10 19] count as 1
-#3- Repeat process 1000 times and record the counts for each face
 import random
+import matplotlib.pyplot as plt
 counts = [0, 0, 0, 0, 0, 0]
 num_trial = 2000
 for trial in range(num_trial):
