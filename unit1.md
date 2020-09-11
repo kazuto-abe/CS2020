@@ -1,3 +1,4 @@
+![](-----.jpg)
 # Unit1: A electronic hardware store
 
 ## Criteria A : Planning
@@ -8,6 +9,9 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 
 ### Justisification of the solution
 ***Here we will write the design statement: what will do, how, by when***
+
+## Criteria B: Design
+### System diagram
 
 ## Criteria: C :Development
 
@@ -149,4 +153,20 @@ num = (input("Please enter 10 numbers ex. 8  3  1  5  6  ... : \n "))
 
 sorted_num = sorted(num.split())
 print("This is the list of ordered numbers : \n {}" .format (sorted_num))
+```
+Warm up activity 8/11/ 2020
+
+```.py
+#program generates the patterns 0123401234
+
+#step1
+number_repetition = int(input("please enter number:  "))
+
+#step2
+count = 0
+for i in range(number_repetition):
+  print(count)
+  count = count + 1
+  if count == 4:
+    count = 0
 ```
