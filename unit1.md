@@ -18,7 +18,7 @@ T(techonological).E(economic).L.O.S study:
 ## Criteria for Sucess
 
 1. Provides clear feedback to the user (Usability)
-2. *** There are bugs in the application
+2. ***There are no bugs in the application***
 3. The application should allow to calculate the total and billing
 4. Secure application: It allows user login/autenthication
 
