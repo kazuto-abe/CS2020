@@ -11,6 +11,9 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 ***Here we will write the design statement: what will do, how, by when***
 
 ## Criteria B: Design
+
+![](https://github.com/kazuto-abe/CS2020/blob/master/Computer%20science_software%20organization.001.jpeg?raw=true)
+
 ### System diagram
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Flow%20diagram__sakamoto_store.jpg?raw=true)
