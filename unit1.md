@@ -11,9 +11,16 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 ***Here we will write the design statement: what will do, how, by when***
 we want to create a text based applicatgion that runs on a computer, which provides the functionality for the hardware store. The app should provide action such as record of puchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this applicatiopn using python because it is  the software we are using in class at the moment. In comparison to C++ or C, pyuthon has a learn and simple programming syntax.In addition Python has become the most popular programmming language over the last years. Python has a large repository of libraries and documents.
 
-T.E.L.O.S study:
+T(techonological).E(economic).L.O.S study:
 
 [1] MLA citation for the data supporting that Pthon is the most popular programming language.
+
+## Criteria for Sucess
+
+1. Provides clear feedback to the user (Usability)
+2. *** There are bugs in the application
+3. The application should allow to calculate the total and billing
+4. Secure application: It allows user login/autenthication
 
 ## Criteria B: Design
 
