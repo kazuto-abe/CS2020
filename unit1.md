@@ -9,7 +9,7 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 
 ### Justisification of the solution
 ***Here we will write the design statement: what will do, how, by when***
-
+we want to create a text based applicatgion that runs on a computer, which provides the functionality for the hardware store. The app should provide action such as record of puchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this applicatiopn because it is  the software we are using in class at the moment. In comparison to C++ or C, pyuthon has a learn and simple programming syntax.
 ## Criteria B: Design
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Computer%20science_software%20organization.001.jpeg?raw=true)
