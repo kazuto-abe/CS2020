@@ -55,10 +55,8 @@ print("4.{}  {}".format("GPU","8$"))
 
 print("=" * 20)
 
-print("Which option do you want to get.  ")
-options = int(input())
-
 for i in range(3):
+  options =int(input("Which option do you want to get.  "))
   if options == 1 :
     print ("You chose RAM")
     break
@@ -73,7 +71,6 @@ for i in range(3):
     break
   else :
     print ("Please chose a number from the list above")
-    options =int(input("Which option do you want to get.  "))
 ```
 
 Warm up activity 
