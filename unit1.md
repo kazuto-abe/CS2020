@@ -72,6 +72,28 @@ for i in range(3):
   else :
     print ("Please chose a number from the list above")
 ```
+Program to calculate the tax:
+
+
+```.py
+#This program calculates the taxes
+
+while True:
+  total = int(input("Please enter the total amount of BTC:  "))
+  if total < 0: 
+    print("The total cannot be negative. Try again")
+  else:
+    break
+
+# Step2: Without using pattern recognition
+
+for i in [0,1,2,3,4]:
+  if 250 * i < total <= 250 * i + 250:
+    tax = 0.25 - 0.05 * i
+  if total > 1000:
+    tax = 0.25
+```
+
 
 Warm up activity 
 
