@@ -74,6 +74,14 @@ for i in range(3):
 ```
 Program to calculate the tax:
 
+Table:
+| Rate | Bill total          |
+|:----:|---------------------|
+| 5%   | >1000 BTC           |
+| 10%  | 750 < total <= 1000 |
+| 15%  | 500 < total <= 750  |
+| 20%  | 250 < total <= 500  |
+| 25%  | 0 < total <= 250    |
 
 ```.py
 #This program calculates the taxes
