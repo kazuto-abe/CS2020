@@ -11,7 +11,7 @@ There is a hardware store in Karuizawa. This store is quite old, like 1000 years
 ***Here we will write the design statement: what will do, how, by when***
 we want to create a text based applicatgion that runs on a computer, which provides the functionality for the hardware store. The app should provide action such as record of puchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this applicatiopn using python because it is  the software we are using in class at the moment. In comparison to C++ or C, pyuthon has a learn and simple programming syntax.In addition Python has become the most popular programmming language over the last years. Python has a large repository of libraries and documents.
 
-T(techonological).E(economic).L.O.S study:
+T.E.L.O.S study: Technological, Economic, Legal, Organiational, Scheduling.
 
 [1] MLA citation for the data supporting that Pthon is the most popular programming language.
 
@@ -24,9 +24,11 @@ T(techonological).E(economic).L.O.S study:
 
 ## Criteria B: Design
 
+### System diagram
+
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Computer%20science_software%20organization.001.jpeg?raw=true)
 
-### System diagram
+### Flow diagram
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Flow%20diagram__sakamoto_store.jpg?raw=true)
 
