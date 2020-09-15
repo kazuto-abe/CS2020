@@ -104,6 +104,25 @@ for i in [0,1,2,3,4]:
     tax = 0.25
 ```
 
+#### judge whether users input perfect number or not
+
+```.py
+num = int(input("please enter a number:   "))
+
+sum = 0
+for i in range(num - 1, 1, -1):
+  if num % i == 0:
+    sum += i
+    print(i,"it is a factor")
+
+sum_factor = sum + 1
+print("This is sum of factor: {}".format(sum_factor))
+
+if sum_factor == num :
+  print("You chose perfect number")
+else:
+  print("You did not chose perfect number")
+```
 
 Warm up activity 
 
