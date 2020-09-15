@@ -24,6 +24,10 @@ T.E.L.O.S study: Technological, Economic, Legal, Organiational, Scheduling.
 
 ## Criteria B: Design
 
+### System Diagram - inside of our computers
+
+![](https://github.com/kazuto-abe/CS2020/blob/master/Computer_figure2.jpg?raw=true)
+
 ### System diagram
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Computer%20science_software%20organization.001.jpeg?raw=true)
