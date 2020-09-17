@@ -243,3 +243,41 @@ for i in range(number_repetition):
 Figure 2, created by Kazu, Luke, Ben, Salma, Zoe, and Guan
 
 
+
+As an overview of this illustration, this shows the basic structure of the GAMING computer(at this time our team supposed) includes a common input source and output source. Before executing their program in the computer, signal input by users is required such as a keyboard, touch screen, mouse, microphone, etc...
+(Commonly these input information will be transferred via USB port) There is also another type of signal input, called ethernet, which transmits network information toward to motherboard using a cable. All input slots are attached to the motherboard so that it directly connects to their program.
+
+Aside from the input source, this gaming computer basically consists of 4 main components: Motherboard, HDD, SDD, and Power supply. 
+
+Since this computer is for gaming stuff, there are two types of storage devices called HDD and SSD, where the data can be stored. In general, SSD, the newer type of flash memory,  is more competent than HDD except for their prices; it is faster, requires less power supply(it obviously contributes to long battery life), and shock-resistant. Most common laptops, however, have only one flash memory either HDD or SSD but our computer has “hybrid memory” because of a gaming computer. 
+These mass storage devices are connected to the host bus by a computer bus interface called SATA cable. On the other hand, the power supply provides enough electronic power to the motherboard through a different cable, it’s called PSU cable. 
+
+In the motherboard, there are mainly 4 components: CPU, GPU, RAM, and PCH.
+(As this diagram indicates that the motherboard is DDR4 which is a newer model, It has no NorthBridge and SouthBridge.)
+
+In order to make it more specific, details are written following bullet points below:
+
+
+* CPU core i9 <br>
+CPU is simply defined as the primary component of a computer that processes instructions; it executes the operating program and application, continuously receiving input source from the users. Also our CPU is named Intel core i9, which is the most powerful intel processor on the mainstream market. It is faster and smarter than previous models. The fan is attached to the CPU.
+
+* RAM  <br>
+This is a temporary storage in general, and it’s stored on the motherboard
+in modules that are called DIMMs. RAM needs constant electrical power to
+store data, and if the power supply is gone then the data is erased.
+The motherboard is able to have between 2 and 4 of memory slots on average, so 
+our computer has 4 RAM slots to store more data.
+
+* GPU <br>
+GPU, graphic processing unit, as a co-processor to accelerate CPUs for 
+engineering computing.
+In addition, GPU is good at parallel processing at once.
+
+* PCH <br>
+PCH stands for the platform controller hub, and it is known for one of the Intel chipsets.
+These include the system clock, FDI, and DMI.
+
+
+
+Eventually, results (output) will be shown to the users. (Screen, speakers, text, images, etc.. for instance)
+
