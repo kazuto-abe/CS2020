@@ -24,6 +24,13 @@ T.E.L.O.S study: Technological, Economic, Legal, Organiational, Scheduling.
 
 ## Criteria B: Design
 
+### Record of the task
+
+| Task No |                                              Planned Action                                             |          Planned  Outcome         | Time Estimated | Target Completion Date  | Criterion |
+|:-------:|:-------------------------------------------------------------------------------------------------------:|:---------------------------------:|:--------------:|:-----------------------:|:---------:|
+|    1    | Planning: discuss the context of the situation. (Ideally this is the first interview with your client)  |   Write a context of the problem  |      15min     |         Sep 11th        |     A     |
+|    2    |             Development: Coded a text-based menu system for some parts in the hardware store            | A working program that shows menu |      80min     |         Sep18th         |     C     |
+
 ### System diagram
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Computer%20science_software%20organization.001.jpeg?raw=true)
@@ -281,3 +288,7 @@ These include the system clock, FDI, and DMI.
 
 Eventually, results (output) will be shown to the users. (Screen, speakers, text, images, etc.. for instance)
 
+## Criteria D: Functionality 
+This is a video
+
+## Criteria E: Evaluation
