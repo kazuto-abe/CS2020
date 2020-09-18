@@ -242,6 +242,18 @@ for i in range(number_repetition):
   if count == 4:
     count = 0
 ```
+```.py
+msg = input("enter a message:  ")
+n = int(input("Put an integer:  "))
+
+encrypted_msg = ""
+
+for i in msg :
+  i = chr(ord(i) + n)
+  encrypted_msg += i # concatenate text
+
+print(msg + " → " + encrypted_msg)
+```
 
 ## Computer Architecture 
 
