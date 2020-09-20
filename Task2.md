@@ -4,10 +4,17 @@ Task1
 ```.py
 # Task1 Create a program that shows the color of all the lockers from 1 to 2400
 
-color_list = ["red", "white", "yellow", "blue"] * 600
-
-for i in range(2400):
-  print("Locker number: {} \n Color of locker: {} ".format(i + 1, color_list[i]))
+num = 0
+for i in range(0,2401):
+  num += 1
+  if i % 4 == 1:
+    print("Locker number: {} \n Color of locker: RED ".format(i))
+  if i % 4 == 2:
+    print("Locker number: {} \n Color of locker: WHITE ".format(i))
+  if i % 4 == 3:
+    print("Locker number: {} \n Color of locker: YELLOW ".format(i))
+  if i % 4 == 0:
+    print("Locker number: {} \n Color of locker: BLUE ".format(i))
 ```
 
 Task2
