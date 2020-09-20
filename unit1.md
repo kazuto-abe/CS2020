@@ -110,6 +110,26 @@ for i in [0,1,2,3,4]:
   if total > 1000:
     tax = 0.25
 ```
+```.py
+number = (input("enter the numbers ex.. 4156980:  "))
+
+devided_num = str(number)
+print(devided_num)
+
+first_num = number[0:3]
+last_num = number[3:]
+
+print (first_num, last_num)
+
+add_first = 0
+for f in first_num:
+  add_first += int(f)
+
+add_last = 0
+for l in last_num:
+  add_last += int(l)
+print(add_first == add_last)
+```
 
 #### judge whether users input perfect number or not
 
