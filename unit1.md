@@ -274,6 +274,10 @@ for i in msg :
 
 print(msg + " → " + encrypted_msg)
 ```
+### Algorithm for encrypting the database
+#### Flow diagram
+
+![](https://github.com/kazuto-abe/CS2020/blob/master/Securing_database_flowdiagram.png?raw=true)
 
 ## Computer Architecture 
 
