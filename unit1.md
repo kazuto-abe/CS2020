@@ -297,9 +297,9 @@ for line in all_lines_of_db:
     len_line = len(line)
     for l in range(len_line):
         print("Line number: {} out of {} {} completion {:.2f}%".format(l + 1, len_line,"."*30 , (l + 1) / len_line * 100))
-        new_l = chr(ord(l) + 2)
+        new_l = chr(ord(line[l]) + 2)
         encrypt_line += new_l
-    print(encrypt_line)
+    print("Your encrypted line is ... {}".format(encrypt_line))
 ```
 
 ## Computer Architecture 
