@@ -277,6 +277,7 @@ for i in msg :
 
 print(msg + " → " + encrypted_msg)
 ```
+
 ### Algorithm for encrypting the database
 #### Flow diagram
 
