@@ -130,6 +130,27 @@ for l in last_num:
   add_last += int(l)
 print(add_first == add_last)
 ```
+### Algorithm for encrypting the database
+main.py
+
+```.py
+# Algorithm for encrypting the database
+
+# Read database from the .txt file
+all_lines_of_db = open("cypher_database.txt", "r").readlines()
+
+
+for line in all_lines_of_db:
+    encrypt_line = ""
+    len_line = len(line)
+    for l in range(len_line):
+        print("Line number: {} out of {} {} completion {:.2f}%".format(l + 1, len_line,"."*30 , (l + 1) / len_line * 100))
+        new_l = chr(ord(l) + 2)
+        encrypt_line += new_l
+    print(encrypt_line)
+```
+
+
 
 #### judge whether users input perfect number or not
 
