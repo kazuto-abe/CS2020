@@ -295,12 +295,22 @@ all_lines_of_db = open("cypher_database.txt", "r").readlines()
 
 for line in all_lines_of_db:
     encrypt_line = ""
+    decrypt_line = ""
     len_line = len(line)
-    for l in range(len_line):
-        print("Line number: {} out of {} {} completion {:.2f}%".format(l + 1, len_line,"."*30 , (l + 1) / len_line * 100))
-        new_l = chr(ord(line[l]) + 2)
+    for n_l in range(len_line):
+        # print("Line number: {} out of {} {} completion {:.2f}%".format(l + 1, len_line,"."*30 , (l + 1) / len_line * 100))
+        new_l = chr(ord(line[n_l]) + 2)
         encrypt_line += new_l
     print("Your encrypted line is ... {}".format(encrypt_line))
+    for p_l in range(len_line):
+        # print("Line number: {} out of {} {} completion {:.2f}%".format(l + 1, len_line,"."*30 , (l + 1) / len_line * 100))
+        previous_l = chr(ord(line[p_l]) - 2)
+        decrypt_line += previous_l
+    print("Your decrypted line is ... {}".format(decrypt_line))
+    with open("cypher_database.txt", "a") as wfile:
+        wfile.write(encrypt_line + "\n")
+        wfile.write(decrypt_line + "\n")
+
 ```
 
 ## Computer Architecture 
