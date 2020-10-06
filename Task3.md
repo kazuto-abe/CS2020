@@ -109,13 +109,13 @@ Minimal specifications: 3.6 GB hard disk space, 257MB RAM.
 
 [HL] Task: Pick one of the OS in the list above (or any other you find which is open source), download it, and install it in your computer using a Virtual Machine (Tutorial Here). Prepare 3 Slides with your experience, plus you will show us the operating system running and some interesting software applications included, check the games and office applications. Enjoy!
 
-![](-----.jpg)
+![](https://github.com/kazuto-abe/CS2020/blob/master/Ubuntu%20Presentation%201.jpg?raw=true)
 Slide1
 
-![](-----.jpg)
+![](https://github.com/kazuto-abe/CS2020/blob/master/Ubuntu%20Presentation%202.jpg?raw=true)
 Slide2
 
-![](-----.jpg)
+![](https://github.com/kazuto-abe/CS2020/blob/master/Ubuntu%20Presentation%203.jpg?raw=true)
 Slide3
 
 
