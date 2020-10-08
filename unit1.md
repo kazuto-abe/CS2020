@@ -45,11 +45,12 @@ T.E.L.O.S study: Technological, Economic, Legal, Organiational, Scheduling.
 First test of text based menu:
 
 ```.py
+# Get the information about year, month,date, and minute time.
 from datetime import datetime
-
 date = datetime.today()
 
-print('Welcome to Mr.Sakamoto Store Sep 4 10:29 {}'.format(date))
+print('Welcome to Mr.Sakamoto Store {}'.format(date))
+# Let users enter their name
 print("What is your name?")
 name = input()
 print("Hi" + " " + name + "!!")
@@ -58,29 +59,82 @@ print("Hi" + " " + name + "!!")
 print("This is the menu")
 print("=" * 20)
 
-print("1.{}  {}".format("Ram","3$")) 
-print("2.{}  {}".format("CPU","5$")) 
-print("3.{}  {}".format("Motherboard","5$")) 
-print("4.{}  {}".format("GPU","8$"))
+print("1.{}  {}".format("Ram","3BTC"))
+print("2.{}  {}".format("CPU","5BTC"))
+print("3.{}  {}".format("Motherboard","5BTC"))
+print("4.{}  {}".format("GPU","8BTC"))
 
 print("=" * 20)
 
+# Loop back 3 times maximum if the user put wrong option
 for i in range(3):
   options =int(input("Which option do you want to get.  "))
-  if options == 1 :
-    print ("You chose RAM")
+  if options == 1:
+    print("You chose RAM")
+    while True:
+        num_ram = int(input("How many RAMs you would purchase "))
+        # Loop back if the user enter the negative integer
+        if num_ram > 0:
+            print("Your total amount of RAMs are {}.".format(num_ram))
+            break
+        else:
+            print("Please input a POSITIVE integer")
     break
   if options == 2 :
-    print ("You chose CPU")
+    print("You chose CPU")
+    while True:
+        num_cpu = int(input("How many CPUs you would purchase "))
+        # Loop back if the user enter the negative integer
+        if num_cpu > 0:
+            print("Your total amount of CPUs are {}.".format(num_cpu))
+            break
+        else:
+            print("Please input a POSITIVE integer")
     break
-  if options == 3 :
-    print ("You chose Motherboard")
+  if options == 3:
+    print("You chose Motherboard")
+    while True:
+        num_motherboard = int(input("How many Motherboard you would purchase "))
+        # Loop back if the user enter the negative integer
+        if num_motherboard > 0:
+            print("Your total amount of Motherboard are {}.".format(num_motherboard))
+            break
+        else:
+            print("Please input a POSITIVE integer")
     break
-  if options == 4 :
-    print ("You chose GPU")
+
+  if options == 4:
+    print("You chose GPU")
+    while True:
+        num_gpu = int(input("How many GPUs you would purchase "))
+        # Loop back if the user enter the negative integer
+        if num_gpu > 0:
+            print("Your total amount of GPUS are {}.".format(num_gpu))
+            break
+        else:
+            print("Please chose a number from the list above")
     break
-  else :
-    print ("Please chose a number from the list above")
+
+# Let the user input the total amount of BTC
+while True:
+  total_num = int(input("Please enter the total amount (BTC) "))
+  # Loop it back if it's negative integer
+  if total_num < 0:
+    print("The total cannot be negative integer. Please try again")
+  else:
+      break
+
+# Computes the taxes
+for i in range(4):
+  if 250 * i < total_num <= 250 * i + 250:
+    tax = 0.25 - (0.05 * i)
+  if total_num > 1000:
+    tax = 0.25
+
+# Get the final price result
+taxincluded_price = round(total_num * (tax + 1))
+print("Your final price(tax included) will be {} {} BTC".format("."*20,taxincluded_price))
+
 ```
 Program to calculate the tax:
 
@@ -93,24 +147,6 @@ Table:
 | 20%  | 250 < total <= 500  |
 | 25%  | 0 < total <= 250    |
 
-```.py
-#This program calculates the taxes
-
-while True:
-  total = int(input("Please enter the total amount of BTC:  "))
-  if total < 0: 
-    print("The total cannot be negative. Try again")
-  else:
-    break
-
-# Step2: Without using pattern recognition
-
-for i in [0,1,2,3,4]:
-  if 250 * i < total <= 250 * i + 250:
-    tax = 0.25 - 0.05 * i
-  if total > 1000:
-    tax = 0.25
-```
 
 ### Algorithm for encrypting the database
 #### Flow diagram
