@@ -111,17 +111,6 @@ for i in [0,1,2,3,4]:
     tax = 0.25
 ```
 
-#### Task for HL
-
-Create a program that asks the user for 10 numbers and then shows those values ordered from smallest to largest.
-
-```.py
-num = (input("Please enter 10 numbers ex. 8  3  1  5  6  ... : \n "))
-
-sorted_num = sorted(num.split())
-print("This is the list of ordered numbers : \n {}" .format (sorted_num))
-```
-
 ### Algorithm for encrypting the database
 #### Flow diagram
 
