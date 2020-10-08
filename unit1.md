@@ -30,6 +30,7 @@ T.E.L.O.S study: Technological, Economic, Legal, Organiational, Scheduling.
 |:-------:|:-------------------------------------------------------------------------------------------------------:|:---------------------------------:|:--------------:|:-----------------------:|:---------:|
 |    1    | Planning: discuss the context of the situation. (Ideally this is the first interview with your client)  |   Write a context of the problem  |      15min     |         Sep 11th        |     A     |
 |    2    |             Development: Coded a text-based menu system for some parts in the hardware store            | A working program that shows menu |      80min     |         Sep18th         |     C     |
+|    3    |             Design: Create a flow diagram for the menu program            | Easy to understand and follow how the program works |      20min     |         Sep15th         |     B     |
 
 ### System diagram
 
