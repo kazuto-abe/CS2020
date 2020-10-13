@@ -228,6 +228,6 @@ These include the system clock, FDI, and DMI.
 Eventually, results (output) will be shown to the users. (Screen, speakers, text, images, etc.. for instance)
 
 ## Criteria D: Functionality 
-This is a video
+This is a video 
 
 ## Criteria E: Evaluation
