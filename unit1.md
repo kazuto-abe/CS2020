@@ -182,6 +182,12 @@ for line in all_lines_of_db:
 
 ```
 
+### Combine all together
+
+```.py
+
+```
+
 ## Computer Architecture 
 
 ![](https://github.com/kazuto-abe/CS2020/blob/master/Computer_figure2.jpg?raw=true)
